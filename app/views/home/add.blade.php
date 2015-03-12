@@ -4,67 +4,9 @@
 
 @section('content')
 
-    <!--HEADER-->
-    <section id="hedbg">
-        <div class="container">
-            <div class="btn btn-default">ობიექტის დამატება</div>
-        </div>
-    </section>
-    <!--/HEADER-->
+  
 
-    <!--FILTER-->
-    <section id="search">
-        <div class="container">
-            <div class="filter-bg">
-                <!--LOCATION-->
-                <div class="filter-selectors">
-                    <select class="selectpicker" title="მდებარეობა" multiple>
-                        <option>ვარკეთილი</option>
-                        <option>ისანი</option>
-                        <option>სამგორი</option>
-                        <option>ავლაბარი</option>
-                        <option>რუსთაველი</option>
-                        <option>თავისუფლება</option>
-                        <option>ახმეტელი</option>
-                        <option>დიდუბე</option>
-                        <option>ღრმაღელე</option>
-                    </select>
-                </div>
-                <!--/LOCATION-->
-                <!--TYPE-->
-                <div class="filter-selectors">
-                    <select class="selectpicker" title="ობიექტის ტიპი" multiple>
-                        <option>ვარკეთილი</option>
-                        <option>ისანი</option>
-                        <option>სამგორი</option>
-                        <option>ავლაბარი</option>
-                        <option>რუსთაველი</option>
-                        <option>თავისუფლება</option>
-                        <option>ახმეტელი</option>
-                        <option>დიდუბე</option>
-                        <option>ღრმაღელე</option>
-                    </select>
-                </div>
-                <!--/TYPE-->
 
-                <input type="text" class="object-name" placeholder="სახელწოდება...">
-                <input class="btn btn-warning" type="submit" value="ძიება">
-                <br>ne d
-                <div id="chechboxes">
-                    <input class="checkbox" id="check-1" type="checkbox">
-                    <label tabindex="1" for="check-1" class="checkbox-label">სასმლის შეტანა</label>
-
-                    <input class="checkbox" id="check-2" type="checkbox">
-                    <label tabindex="2" for="check-2" class="checkbox-label">ცოცხალი მუსიკა</label>
-
-                    <input class="checkbox" id="check-3" type="checkbox">
-                    <label tabindex="2" for="check-3" class="checkbox-label">ფეხბურთის ტრანსლაცია</label>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <!--/FILTER-->
 
     <!--FORM-->
     <section id='add-object'>
